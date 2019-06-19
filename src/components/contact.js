@@ -9,11 +9,11 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Adriana Jimenez</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src="http://i66.tinypic.com/j8fqfd.jpg"
               alt="avatar"
               style={{ height: "250px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "4em" }}>
+            <p style={{ width: "75%", margin: "auto", paddingTop: "2em" }}>
               Full-stack web developer with a background in cryptocurrency and
               IT communications in Canada and abroad. Passionate about
               continuously learning new skills and always seeking opportunity

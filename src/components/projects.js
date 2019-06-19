@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import {
-  Tabs,
-  Tab,
   Grid,
   Cell,
   Card,
@@ -13,103 +11,148 @@ import {
 } from "react-mdl";
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { activeTab: 0 };
-  }
-
-  toggleCategories() {
-    if (this.state.activeTab === 0) {
-      return (
-        <div className="projects-grid">
-          {" "}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "#black",
-                height: "176px",
-                background:
-                  "url(https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png) center / cover",
-                zIndex: 1
-              }}
-            >
-              ChattyApp
-            </CardTitle>
-            <CardText>
-              ChattyApp is a client-side single-page application that allows
-              multiple users to chat with each other. Users are able to set
-              their username and chat in real-time through through the Websocket
-              server.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }} />
-          </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "black",
-                height: "176px",
-                background:
-                  "url(https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png) center / cover"
-              }}
-            >
-              FoodNow
-            </CardTitle>
-            <CardText>
-              Food Now is an web application for a singular restaurant wher a
-              user can order for pick-up. The app stores the user choices on its
-              cart using local storage. Guaranteeing the item will stay on cart
-              even if the browser is closed. The user can edit each item
-              individually (increase/decrease quantity, and delete) and all
-              changes are reflect on total price amount.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }} />
-          </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div>
-          <h1>This is Mongo</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is NodeJS</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is Mongo</h1>
-        </div>
-      );
-    }
-  }
   render() {
     return (
-      <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={tabId => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          <Tab>MongoDB</Tab>
-          <Tab>NodeJS</Tab>
-          <Tab>AWS</Tab>
-        </Tabs>
-        <Grid>
-          <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
-          </Cell>
-        </Grid>
+      <div>
+        <div className="content">
+          <div className="content-grid" />
+          <Grid className="projects-grid">
+            <Cell col={3}>
+              <Card
+                shadow={5}
+                style={{ width: "450", margin: "auto", height: "400px" }}
+              >
+                <CardTitle
+                  style={{
+                    color: "#black",
+                    height: "221px",
+                    background:
+                      "url(https://tryolabs.com/images/blog/social/react.736da783.png) center / cover",
+                    zIndex: 1
+                  }}
+                >
+                  ChattyApp
+                </CardTitle>
+                <CardText>
+                  ChattyApp is a client-side single-page application that allows
+                  multiple users to chat with each other. Users are able to set
+                  their username and chat in real-time through through the
+                  Websocket server.
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }} />
+              </Card>
+            </Cell>
+            <Cell col={3}>
+              <Card
+                shadow={5}
+                style={{ width: "450", margin: "auto", height: "400px" }}
+              >
+                <CardTitle
+                  style={{
+                    color: "black",
+                    height: "221px",
+                    background:
+                      "url(https://www.techaroha.com/wp-content/uploads/2018/06/BEEVA-nodejs-1200x565.jpg) center / cover"
+                  }}
+                >
+                  FoodNow
+                </CardTitle>
+                <CardText>
+                  Food Now is an web application for a singular restaurant wher
+                  a user can order for pick-up. The app stores the user choices
+                  on its cart using local storage. Guaranteeing the item will
+                  stay on cart even if the browser is closed.
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }} />
+              </Card>
+            </Cell>
+            <Cell col={3}>
+              <Card
+                shadow={5}
+                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+              >
+                <CardTitle
+                  style={{
+                    color: "black",
+                    height: "256px",
+                    background:
+                      "url(https://www.techaroha.com/wp-content/uploads/2018/06/BEEVA-nodejs-1200x565.jpg) center / cover"
+                  }}
+                >
+                  TinyApp
+                </CardTitle>
+                <CardText>
+                  TinyApp is a full stack web application built with Node and
+                  Express that allows users to shorten long URLs (à la bit.ly).
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }} />
+              </Card>
+            </Cell>
+            <Cell col={3}>
+              <Card
+                shadow={5}
+                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+              >
+                <CardTitle
+                  style={{
+                    color: "black",
+                    height: "205px",
+                    background:
+                      "url(https://australiansecuritymagazine.com.au/wp-content/uploads/2018/03/Amazon-Web-Services_logo835x396.png) center / cover"
+                  }}
+                >
+                  Haven
+                </CardTitle>
+                <CardText>
+                  Haven is an open source Smart Home app built to automate and
+                  control common household processes. The first feature
+                  implementation of the app is a video feed from a camera that
+                  can be placed anywhere in your home. Our users can enter our
+                  application and start the live stream to see the feed.
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }} />
+              </Card>
+            </Cell>
+            <Cell col={3}>
+              <Card
+                shadow={5}
+                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+              >
+                <CardTitle
+                  style={{
+                    color: "black",
+                    height: "241px",
+                    background:
+                      "url(https://xebialabs.com/wp-content/uploads/files/tool-chest/mongodb.jpg) center / cover"
+                  }}
+                >
+                  Tweeter
+                </CardTitle>
+                <CardText>
+                  Single-page Twitter clone powered by AJAX that helped refine
+                  front-end development skills and leverage the asynchronous
+                  power of JavaScript
+                </CardText>
+                <CardActions border>
+                  <Button colored>GitHub</Button>
+                </CardActions>
+                <CardMenu style={{ color: "#fff" }} />
+              </Card>
+            </Cell>
+          </Grid>
+        </div>
       </div>
     );
   }

@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="http://i66.tinypic.com/j8fqfd.jpg"
+              src="http://i66.tinypic.com/516atz.jpg"
               alt="avatar"
               className="avatar-img"
               id="profile-pic"

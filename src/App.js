@@ -9,8 +9,11 @@ function App() {
     <div>
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-colour" title="Adriana Jimenez" scroll>
-            <Link to="/landing" />
+          <Header
+            className="header-colour"
+            title={<a href="/">Adriana Jimenez</a>}
+            scroll
+          >
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>

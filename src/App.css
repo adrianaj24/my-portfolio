@@ -65,6 +65,25 @@
   letter-spacing: 0.02em;
   font-weight: 400;
   box-sizing: border-box;
+  padding-bottom: 2.5rem;
+}
+
+.mdl-layout__header-row .mdl-layout-title a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.mdl-layout__header--scroll .mdl-layout__header-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  align-self: stretch;
+  align-items: center;
+  height: 150px;
+  margin: 0;
+  padding: 0 40px 0 80px;
 }
 
 .banner-text {
@@ -102,7 +121,8 @@
 }
 
 .projects-grid {
-  display: flex;
+  display: grid;
+  grid: 118px auto / 210px;
 }
 
 .contact-body {
