@@ -40,7 +40,13 @@ class Projects extends Component {
                   Websocket server.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button
+                    href="https://github.com/adrianaj24/chattyApp"
+                    target="_blank"
+                    colored
+                  >
+                    GitHub
+                  </Button>
                 </CardActions>
                 <CardMenu style={{ color: "#fff" }} />
               </Card>
@@ -67,7 +73,13 @@ class Projects extends Component {
                   stay on cart even if the browser is closed.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button
+                    href="https://github.com/adrianaj24/foodnow"
+                    target="_blank"
+                    colored
+                  >
+                    GitHub
+                  </Button>
                 </CardActions>
                 <CardMenu style={{ color: "#fff" }} />
               </Card>
@@ -92,7 +104,13 @@ class Projects extends Component {
                   Express that allows users to shorten long URLs (à la bit.ly).
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button
+                    href="https://github.com/adrianaj24/tinyApp1"
+                    target="_blank"
+                    colored
+                  >
+                    GitHub
+                  </Button>
                 </CardActions>
                 <CardMenu style={{ color: "#fff" }} />
               </Card>
@@ -120,7 +138,13 @@ class Projects extends Component {
                   application and start the live stream to see the feed.
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button
+                    href="https://github.com/adrianaj24/home-assistant"
+                    target="_blank"
+                    colored
+                  >
+                    GitHub
+                  </Button>
                 </CardActions>
                 <CardMenu style={{ color: "#fff" }} />
               </Card>
@@ -146,7 +170,13 @@ class Projects extends Component {
                   power of JavaScript
                 </CardText>
                 <CardActions border>
-                  <Button colored>GitHub</Button>
+                  <Button
+                    href="https://github.com/adrianaj24/tweeter"
+                    target="_blank"
+                    colored
+                  >
+                    GitHub
+                  </Button>
                 </CardActions>
                 <CardMenu style={{ color: "#fff" }} />
               </Card>
