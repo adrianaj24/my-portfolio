@@ -4,5 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This page is done to showcase the projects I completed during my bootcamp at Lighthouse labs using react routers, react-mdl and bootstrap. 
 
-Page hosted: www.jimenezadriana.com
+Page hosted: http://jimenezadriana.com/
 
