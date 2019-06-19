@@ -15,7 +15,7 @@ function App() {
             scroll
           >
             <Navigation>
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects">Projects just adding some text</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
