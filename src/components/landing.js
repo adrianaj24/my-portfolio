@@ -8,9 +8,10 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="http://i66.tinypic.com/516atz.jpg"
+              src="http://i66.tinypic.com/j8fqfd.jpg"
               alt="avatar"
               className="avatar-img"
+              id="profile-pic"
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
@@ -20,25 +21,43 @@ class Landing extends Component {
                 Javascript | HTML | CSS | Ruby | NodeJS | Express | React | SQL
                 | MongoDB | AWS | Rails | Knex | AJAX
               </p>
-              <div className="social-links">
+              <div className="button-container">
                 <a
                   href="https://github.com/adrianaj24"
-                  rel="noopener noreferrer"
                   target="_blank"
+                  className="rounded-btn"
                 >
-                  <i className="fa fa-github-square" aria-hidden="true" />
+                  {" "}
+                  <img
+                    className="button-icon"
+                    src="http://i64.tinypic.com/10xqzxl.png"
+                  />
                 </a>
                 <a
-                  href="https://github.com/adrianaj24"
-                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/adrianaj24/"
                   target="_blank"
+                  className="rounded-btn"
                 >
-                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                  <img
+                    className="button-icon"
+                    src="http://i66.tinypic.com/2zsb5ls.png"
+                  />
+                </a>
+                <a
+                  href="https://resume.creddle.io/resume/51aw52zsx55"
+                  target="_blank"
+                  className="rounded-btn"
+                >
+                  <img
+                    className="button-icon"
+                    src="http://i66.tinypic.com/2a4pheq.png"
+                  />
                 </a>
               </div>
             </div>
           </Cell>
         </Grid>
+        <hr />
       </div>
     );
   }

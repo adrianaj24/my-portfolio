@@ -48,7 +48,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    LinkedIn
+                    linkedin.com/in/adrianaj24/
                   </ListItemContent>
                 </ListItem>
               </List>

@@ -9,8 +9,7 @@ import {
   CardText,
   CardActions,
   Button,
-  CardMenu,
-  IconButton
+  CardMenu
 } from "react-mdl";
 
 class Projects extends Component {
@@ -27,10 +26,11 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#black",
                 height: "176px",
                 background:
-                  "url(https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png) center / cover"
+                  "url(https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png) center / cover",
+                zIndex: 1
               }}
             >
               ChattyApp
@@ -49,7 +49,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "black",
                 height: "176px",
                 background:
                   "url(https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png) center / cover"
