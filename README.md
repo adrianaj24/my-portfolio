@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Portfolio Page 
 
-This page is done to showcase the projects I completed during my bootcamp at Lighthouse labs using react routers, react-mdl and bootstrap. 
+This page is done to showcase the projects I completed during my bootcamp at Lighthouse labs. Page was done using react routers, react-mdl and bootstrap. 
 
 Page hosted: http://jimenezadriana.com/
 
