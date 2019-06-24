@@ -1,6 +1,14 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import {
+  Layout,
+  Header,
+  Navigation,
+  Content,
+  Footer,
+  FooterSection,
+  FooterLinkList
+} from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
@@ -23,6 +31,12 @@ function App() {
             <div className="page-content" />
             <Main />
           </Content>
+          <Footer size="mini">
+            <FooterSection
+              type="center"
+              logo="Copyright © Adriana Jimenez 2019"
+            />
+          </Footer>
         </Layout>
       </div>
     </div>

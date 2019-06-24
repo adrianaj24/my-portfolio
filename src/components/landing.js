@@ -15,7 +15,6 @@ class Landing extends Component {
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
-              <hr />
               <p>
                 {" "}
                 Javascript | HTML | CSS | Ruby | NodeJS | Express | React | SQL
@@ -57,7 +56,6 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-        <hr />
       </div>
     );
   }
