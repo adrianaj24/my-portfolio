@@ -120,11 +120,6 @@
   margin: auto;
 }
 
-.projects-grid {
-  display: grid;
-  grid: 118px auto / 210px;
-}
-
 .contact-body {
   margin: auto;
   position: fixed;
