@@ -147,7 +147,7 @@ class Projects extends Component {
                   style={{
                     display: "flex",
                     color: "black",
-                    height: "205px",
+                    height: "223px",
                     background:
                       "url(https://australiansecuritymagazine.com.au/wp-content/uploads/2018/03/Amazon-Web-Services_logo835x396.png) center / cover"
                   }}
@@ -158,8 +158,7 @@ class Projects extends Component {
                   Haven is an open source Smart Home app built to automate and
                   control common household processes. The first feature
                   implementation of the app is a video feed from a camera that
-                  can be placed anywhere in your home. Our users can enter our
-                  application and start the live stream to see the feed.
+                  can be placed anywhere in your home.
                 </CardText>
                 <CardActions border>
                   <Button
