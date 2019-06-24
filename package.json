@@ -10,7 +10,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://adrianaj24.github.io/my-portfolio/",
+  "homepage": "https://jimenezadriana.com",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
