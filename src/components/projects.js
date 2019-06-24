@@ -20,10 +20,16 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ width: "450", margin: "auto", height: "400px" }}
+                style={{
+                  display: "flex",
+                  width: "450",
+                  margin: "auto",
+                  height: "400px"
+                }}
               >
                 <CardTitle
                   style={{
+                    display: "flex",
                     color: "#black",
                     height: "221px",
                     background:
@@ -54,10 +60,16 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ width: "450", margin: "auto", height: "400px" }}
+                style={{
+                  display: "flex",
+                  width: "450",
+                  margin: "auto",
+                  height: "400px"
+                }}
               >
                 <CardTitle
                   style={{
+                    display: "flex",
                     color: "black",
                     height: "221px",
                     background:
@@ -87,10 +99,16 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+                style={{
+                  display: "flex",
+                  minWidth: "450",
+                  margin: "auto",
+                  height: "400px"
+                }}
               >
                 <CardTitle
                   style={{
+                    display: "flex",
                     color: "black",
                     height: "256px",
                     background:
@@ -118,10 +136,16 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+                style={{
+                  display: "flex",
+                  minWidth: "450",
+                  margin: "auto",
+                  height: "400px"
+                }}
               >
                 <CardTitle
                   style={{
+                    display: "flex",
                     color: "black",
                     height: "205px",
                     background:
@@ -152,10 +176,16 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "auto", height: "400px" }}
+                style={{
+                  display: "flex",
+                  minWidth: "450",
+                  margin: "auto",
+                  height: "400px"
+                }}
               >
                 <CardTitle
                   style={{
+                    display: "flex",
                     color: "black",
                     height: "241px",
                     background:
