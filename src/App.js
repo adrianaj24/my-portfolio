@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Landing from "./components/landing";
 import {
   Layout,
   Header,
@@ -28,7 +27,6 @@ function App() {
             </Navigation>
           </Header>
           <Content>
-            <Landing />
             <div className="page-content" />
             <Main />
           </Content>
