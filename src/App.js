@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
+import Landing from "./components/landing",
 import {
   Layout,
   Header,
   Navigation,
   Content,
   Footer,
-  FooterSection,
-  FooterLinkList
+  FooterSection
 } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
@@ -28,6 +28,7 @@ function App() {
             </Navigation>
           </Header>
           <Content>
+            <Landing/>
             <div className="page-content" />
             <Main />
           </Content>
