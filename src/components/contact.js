@@ -55,7 +55,6 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
-        <hr />
       </div>
     );
   }

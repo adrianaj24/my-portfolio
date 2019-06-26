@@ -30,12 +30,12 @@ function App() {
             <div className="page-content" />
             <Main />
           </Content>
-          <Footer size="mini">
+          {/* <Footer size="mini">
             <FooterSection
               type="center"
               logo="Copyright © Adriana Jimenez 2019"
             />
-          </Footer>
+          </Footer> */}
         </Layout>
       </div>
     </div>
